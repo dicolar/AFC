@@ -76,8 +76,8 @@ public class AFCTest {
 			System.out.println(doc.getObjectName());
 		}
 		
+		coll.close();
 		
-		System.out.println("done.");
 	}
 	
 }
